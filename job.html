@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix Online Services (FOC)</title>
+    <style>
+        :root {
+            --primary: #0056b3;
+            --secondary: #f8f9fa;
+            --text: #333333;
+            --accent: #28a745;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text);
+            background-color: #f4f6f9;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            margin-top: 1rem;
+        }
+        .btn:hover {
+            background-color: #004085;
+        }
+        .btn-whatsapp {
+            background-color: #25D366;
+        }
+        .btn-whatsapp:hover {
+            background-color: #1ebd54;
+        }
+        .contact-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .contact-section h2 {
+            color: var(--primary);
+            margin-top: 0;
+            text-align: center;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            text-align: center;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Felix Online Services (FOC)</h1>
+        <p>Your trusted partner for fast, reliable, and secure portal applications.</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- Services Section -->
+        <div class="grid">
+            
+            <!-- FOCollege Portal -->
+            <div class="card">
+                <div>
+                    <h3>FOCollege Portal</h3>
+                    <p>Access our specialized educational learning and training platform directly.</p>
+                </div>
+                <a href="https://netlify.app" target="_blank" class="btn">Open FOCollege</a>
+            </div>
+
+            <!-- KRA Filing -->
+            <div class="card">
+                <div>
+                    <h3>KRA Returns Filing</h3>
+                    <p>File your tax returns, generate payment slips, and manage your iTax account.</p>
+                </div>
+                <a href="https://itax.kra.go.ke" target="_blank" class="btn">Fill KRA Returns</a>
+            </div>
+
+            <!-- SHA Account -->
+            <div class="card">
+                <div>
+                    <h3>SHA Account Creation</h3>
+                    <p>Register and create your Social Health Authority account seamlessly.</p>
+                </div>
+                <a href="https://sha.go.ke" target="_blank" class="btn">Create SHA Account</a>
+            </div>
+
+            <!-- KUCCPS Application -->
+            <div class="card">
+                <div>
+                    <h3>KUCCPS Courses Application</h3>
+                    <p>Apply for university placement, college courses, and track your application status.</p>
+                </div>
+                <a href="https://students.kuccps.net" target="_blank" class="btn">Apply KUCCPS</a>
+            </div>
+
+            <!-- HELB & Scholarships -->
+            <div class="card">
+                <div>
+                    <h3>HELB & Scholarships</h3>
+                    <p>Apply for Higher Education Loans Board funding and government scholarships via HEF.</p>
+                </div>
+                <a href="https://portal.hef.co.ke" target="_blank" class="btn">Apply HELB / Scholarship</a>
+            </div>
+
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <h2>Get In Touch</h2>
+            <p style="text-align: center; margin-bottom: 1.5rem;">Need assistance with any portal? Contact us now for quick support. We operate 100% online.</p>
+            <div class="contact-grid">
+                <div>
+                    <h4>WhatsApp</h4>
+                    <a href="https://wa.me" target="_blank" class="btn btn-whatsapp">Chat on WhatsApp</a>
+                </div>
+                <div>
+                    <h4>Email Us</h4>
+                    <a href="mailto:imanhazir@gmail.com" class="btn">Send Email</a>
+                </div>
+                <div>
+                    <h4>Call Support</h4>
+                    <a href="tel:+254759818250" class="btn">Call +254759818250</a>
+                </div>
+                <div>
+                    <h4>Location</h4>
+                    <p><strong>Online Service</strong><br>Accessible anywhere</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Felix Online Services (FOC). All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
